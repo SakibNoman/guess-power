@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bacg"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textColor="#1F5E71" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:padding="30dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/instruction"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="110dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="20dp"
+        android:layout_marginBottom="25dp"
+        android:textStyle="bold"
+        android:onClick="gotoGameActivity"
+        android:fontFamily="serif-monospace"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="If you are tired then relax a moment and listen music"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="listen music"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="gotoMusicActivity"
+        android:fontFamily="serif-monospace"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Designed and Developed by: Sakib Noman"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="33dp"
+        />
+</LinearLayout>

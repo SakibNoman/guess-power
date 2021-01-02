@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Guess Power</string>
+    <string name="instruction">At every trial app will take a number within 1 to 20. Your task is guessing this number. Depending on how much closer your guessed number to the app number, the app will show you a percentage of your guessing power. Thank you</string>
+</resources>
